@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "alienskins",
+  "version": "${version}",
+  "name": "Alien Skins",
+  "description": "Turns every player's skin into an alien.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.alienskins.AlienSkinsClient"] },
+  "mixins": ["alienskins.mixins.json"],
+  "depends": { "fabricloader": ">=0.18.1", "minecraft": "~1.21.11", "java": ">=21" }
+}
